@@ -19,6 +19,7 @@ import portableText from './objects/portableText';
 import simplePortableText from './objects/simplePortableText';
 
 // Landing page sections
+import grid from './objects/grid';
 import hero from './objects/hero';
 import imageSection from './objects/imageSection';
 import mailchimp from './objects/mailchimp';
@@ -33,6 +34,7 @@ export default createSchema({
     cta,
     embedHTML,
     figure,
+    grid,
     hero,
     imageSection,
     internalLink,

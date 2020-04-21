@@ -14,15 +14,13 @@ export default {
       type: 'string',
       title: 'Title',
     },
+ 
     {
       name: 'content',
       type: 'array',
       title: 'Page sections',
       of: [
-        { type: 'hero' },
-        { type: 'imageSection' },
-        { type: 'mailchimp' },
-        { type: 'textSection' },
+        { type: 'grid' },
       ],
     },
     {
@@ -35,7 +33,7 @@ export default {
     {
       name: 'openGraphImage',
       type: 'image',
-      title: 'Open Graph Image',
+      title: 'Open Graph Image',  
       description: 'Image for sharing previews on Facebook, Twitter etc.',
       fieldset: 'metadata',
     },
